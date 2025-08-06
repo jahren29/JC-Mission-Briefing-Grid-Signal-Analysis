@@ -35,7 +35,7 @@ public class GridSignalAnalyzer {
     public  void analyzeWithHybridLoop(){
         for(char[] rowArray: scrambledGrid){
             for(int i = 0; i < rowArray.length; i++){
-                System.out.print(rowArray[i]);
+                System.out.print(rowArray[i] + " ");
             }
             System.out.println();
         }
